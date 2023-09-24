@@ -1,0 +1,35 @@
+.App{
+  background: #1D2128;
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh);
+  margin: 0;
+}
+.App .info{
+  display: flex;
+}
+.App .info .ctn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.App .info .ctn > h1{
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.App >.info > img{
+  height: calc(100vh);
+}
+
+@media screen and (max-width: 600px) {
+  .App >.info > img{
+    display: none;
+  }
+  .App .info .ctn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+}

@@ -1,0 +1,26 @@
+.ItemsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    width: 97%;
+}
+.ItemsList li{
+    border-bottom: 1px solid #E5E5E5;
+    color: #539BF5;
+    width: 100%;
+    margin: 0;
+}
+.ItemsList li h2{
+    margin: 0;
+}
+.ItemsList li h2 a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #539BF5;
+}
+.ItemsList li .description{
+    font-size: .75rem;
+    color: #999999;
+}

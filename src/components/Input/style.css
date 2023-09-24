@@ -1,0 +1,48 @@
+.Search{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.Search input{
+    font-size: 1.25rem;
+    color: #999999;
+    border: 1px solid #999999;
+    display: flex;
+    border-radius: 1.5rem;
+    width: 24rem;
+    padding: 0 0 0 1rem;
+    gap: 1rem;
+    background: transparent;
+}
+.Search button{
+    font-size: 1.25rem;
+    color: #999999;
+    border: 1px solid #999999;
+    display: flex;
+    border-radius: 1.5rem;
+    gap: 1rem;
+    background: #2D333B;
+}
+
+@media screen and (max-width: 600px) {
+    .Search input{
+        font-size: 1rem;
+        color: #999999;
+        border: 1px solid #999999;
+        display: flex;
+        border-radius: 1.5rem;
+        width: 15rem;
+        padding: 0 0 0 1rem;
+        gap: 1rem;
+        background: transparent;
+    }
+    .Search button{
+        font-size: 1rem;
+        color: #999999;
+        border: 1px solid #999999;
+        display: flex;
+        border-radius: 1.5rem;
+        background: #2D333B;
+    }
+}

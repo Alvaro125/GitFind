@@ -1,0 +1,29 @@
+.Profile{
+    display: flex;
+    gap: 1rem;
+}
+.Profile img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+}
+.Profile .info{
+    color: #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Profile .info .name{
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Profile .info .name h2{
+    font-size: .75rem;
+    margin: 0;
+}
+.Profile .info .name h3,.Profile .info .description{
+    font-size: .5rem;
+    margin: 0;
+}
